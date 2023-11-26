@@ -1,0 +1,13 @@
+#portada {
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    height: 20%;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    color: blueviolet;
+    margin-bottom: 20px;
+  }

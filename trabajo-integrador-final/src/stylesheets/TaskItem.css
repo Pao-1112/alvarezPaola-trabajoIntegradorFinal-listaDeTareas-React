@@ -1,0 +1,49 @@
+.contentItem {
+    width: 90%;
+    min-height: 65px;
+    margin-bottom: 20px;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgb(8, 87, 119);
+    background-color: rgb(146, 64, 222);
+    cursor: pointer; /*cursor de manito*/
+}
+.textItem {
+    width: 90%;
+    height: 90%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere; /*Si el texto es largo, sigue hacia abajo y no se sale del renglon*/
+}
+.iconItem {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+/*Tarea realizada*/
+.contentItem.done {
+    background-color: rgb(10, 135, 144);
+    text-decoration: line-through;
+}
+
+.contentItem:nth-child( 3n+1) {
+    background-color: rgb(222, 64, 212);
+}
+.contentItem:nth-child(3n+2) {
+    background-color: rgb(127, 206, 115);
+
+}
+.contentItem:nth-child(3n+3) {
+    background-color: rgba(239, 247, 14, 0.923);
+}
+.contentItem:nth-child(3n+4) {
+    background-color: rgba(247, 68, 14, 0.923);
+}
+.contentItem:nth-child(3n+5) {
+    background-color: rgba(14, 150, 247, 0.923);
+}
